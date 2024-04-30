@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
 
-:root{ /*seletor para usar de forma global as variáveis*/
+:root{ 
     --cor-primaria: #000000;
     --cor-secundaria: #f6f6f6;
     --cor-terciaria: #22D4FD;
@@ -18,9 +18,7 @@
 
 body {
     background-color: var(--cor-primaria);
-    color: var(--cor-secundaria); 
-    /* width: 100%; */
-    /* height: 100vh; pega a página inteira sem scroll a menos q tenha mt elemento*/ 
+    color: var(--cor-secundaria);  
     box-sizing: border-box;
 }
 
@@ -67,12 +65,10 @@ a{
 }
 
 .apresentacao{
-    /* margin: 10% 15%; mudando para o padding para caber tudo na tela */
     padding: 5% 15%;
-    display: flex; /* indicar o uso de flebox*/
+    display: flex; 
     align-items: center;
-    justify-content:space-between; /*para alinhar texto a esquerda e imagem a direita*/
-    /*flex-wrap: wrap; /*para que os itens se ajustem e mudem de linha conforme o tamanho da tela. Responsividade */
+    justify-content:space-between; 
     gap: 82px;
 }
 
@@ -84,12 +80,11 @@ a{
     width: 50%;
     font-family: var(--fonte-secundaria);
     display: flex;
-    flex-direction: column; /*por padrão é em linha row */
-    gap: 40px; /*propriedade do flexbox que possuirá o espaçamento dos elementos filhos*/
+    flex-direction: column; 
+    gap: 40px; 
 } 
 
-.apresentacao__conteudo__titulo{  /* 16px = 1 rem escala mais usada */
-    /* font-size: 36px; 36px/16 */
+.apresentacao__conteudo__titulo{  
     font-size: 2.25rem;
     font-family: var(--fonte-primaria);
 }
@@ -101,7 +96,7 @@ a{
 
 .apresentacao__links{
     display: flex;
-    flex-direction: column; /*coloca-se coluna para os itens se alinharem na vertical */
+    flex-direction: column; 
     justify-content: space-between;
     align-items: center;
     gap: 32px;
@@ -114,16 +109,15 @@ a{
 }
 
 .apresentacao__links_navegacao{
-    /* background-color: #22D4FD; */
-    display: flex; /*por padrao vai para o cantinho direito */
+    display: flex; /
     justify-content: center;
     gap: 16px;
     width: 50%;
     text-align: center;
-    border-radius: 8px; /*para deixar redonda a borda */
+    border-radius: 8px; 
     font-size: 1.5rem;
-    padding: 21.5px 0px;  /*primeiro vertical depois horizontal*/
-    text-decoration: none; /*retira o sublinado do link */
+    padding: 21.5px 0px;  
+    text-decoration: none; 
     color: var(--cor-secundaria);
     font-family: var(--fonte-secundaria);
     font-weight: 600;
