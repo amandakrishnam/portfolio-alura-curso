@@ -109,7 +109,7 @@ a{
 }
 
 .apresentacao__links_navegacao{
-    display: flex; /
+    display: flex; 
     justify-content: center;
     gap: 16px;
     width: 50%;
