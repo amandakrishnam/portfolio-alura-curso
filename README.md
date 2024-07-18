@@ -1,5 +1,6 @@
 # Portfolio
-![Uma foto da tela iniciar do site](https://user-images.githubusercontent.com/77756047/211304452-220fedf0-f91b-490f-8a65-a60ce860bc5c.png)
+![Uma foto da tela iniciar do site](![image](https://github.com/user-attachments/assets/3a61a430-13e4-4b43-a1fb-d53300d23e7e)
+)
 ## Ferramentas utilizadas:
 
 * HTML
