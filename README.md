@@ -1,5 +1,5 @@
 # Portfolio
-![Uma foto da tela iniciar do site](![image](https://github.com/user-attachments/assets/3a61a430-13e4-4b43-a1fb-d53300d23e7e)
+![Uma foto da tela inicial do site](![image](https://github.com/user-attachments/assets/3a61a430-13e4-4b43-a1fb-d53300d23e7e)
 )
 ## Ferramentas utilizadas:
 
